@@ -1,0 +1,19 @@
+Commodity term-structure regimes & roll drag
+==================================================
+
+WTI crude (CL=F) (121 months, 2016-09-30 to 2026-09-30)
+  contango         1.7% of months, longest run 1 months
+  backwardation   20.7% of months, longest run 7 months
+  neutral         77.7% of months, longest run 21 months
+
+Henry Hub nat gas (NG=F): futures only -- NG=F on Yahoo mis-scaled vs Henry Hub spot (no honest unit conversion); regime classification skipped.
+
+gold (GC=F): futures only -- no spot benchmark (FRED removed LBMA gold fixings Jan 2022); regime classification skipped.
+
+Roll-drag simulation: perpetual long CL front-month futures vs WTI spot
+  years: 9.998631
+  futures_long_total: 0.860282
+  spot_total: 1.242666
+  futures_long_annualized: 0.064049
+  spot_annualized: 0.084130
+  drag_annualized: -0.020081
